@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body {
+  background-image: linear-gradient(to bottom, rgb(235, 193, 193), rgba(244, 132, 132));
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.zeca {
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(237, 165, 165), rgba(235, 193, 193));
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  border-style: double;
+}
+
+input {
+  border-radius: 10px;
+  height: 30px;
+  width: 130px;
+  text-align: center;
+  font-size: medium;
+}
+
+button {
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  background-color: rgba(244, 132, 132);
+}
+
+button:hover {
+  background-color: rgb(235, 193, 193);
+}
